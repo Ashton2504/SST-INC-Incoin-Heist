@@ -14,6 +14,12 @@
 		A37726982CC227BF00334162 /* Incoin_HeistTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A37726972CC227BF00334162 /* Incoin_HeistTests.swift */; };
 		A37726A22CC227BF00334162 /* Incoin_HeistUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A37726A12CC227BF00334162 /* Incoin_HeistUITests.swift */; };
 		A37726A42CC227BF00334162 /* Incoin_HeistUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A37726A32CC227BF00334162 /* Incoin_HeistUITestsLaunchTests.swift */; };
+		A3B0BEF32CC389440098666E /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B0BEF22CC389440098666E /* StartView.swift */; };
+		A3B0BEF52CC389E90098666E /* WhoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B0BEF42CC389E90098666E /* WhoView.swift */; };
+		A3B0BEF72CC38BF60098666E /* WhereView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B0BEF62CC38BF60098666E /* WhereView.swift */; };
+		A3B0BEF92CC38C290098666E /* WhyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B0BEF82CC38C290098666E /* WhyView.swift */; };
+		A3B0BEFB2CC38C9C0098666E /* WhereAreTheyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B0BEFA2CC38C9C0098666E /* WhereAreTheyView.swift */; };
+		A3B0BEFD2CC38CEF0098666E /* HowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B0BEFC2CC38CEF0098666E /* HowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +50,12 @@
 		A377269D2CC227BF00334162 /* Incoin HeistUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Incoin HeistUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A37726A12CC227BF00334162 /* Incoin_HeistUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Incoin_HeistUITests.swift; sourceTree = "<group>"; };
 		A37726A32CC227BF00334162 /* Incoin_HeistUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Incoin_HeistUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A3B0BEF22CC389440098666E /* StartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
+		A3B0BEF42CC389E90098666E /* WhoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhoView.swift; sourceTree = "<group>"; };
+		A3B0BEF62CC38BF60098666E /* WhereView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhereView.swift; sourceTree = "<group>"; };
+		A3B0BEF82CC38C290098666E /* WhyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhyView.swift; sourceTree = "<group>"; };
+		A3B0BEFA2CC38C9C0098666E /* WhereAreTheyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhereAreTheyView.swift; sourceTree = "<group>"; };
+		A3B0BEFC2CC38CEF0098666E /* HowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +108,12 @@
 			children = (
 				A37726862CC227BA00334162 /* Incoin_HeistApp.swift */,
 				A37726882CC227BA00334162 /* ContentView.swift */,
+				A3B0BEFC2CC38CEF0098666E /* HowView.swift */,
+				A3B0BEFA2CC38C9C0098666E /* WhereAreTheyView.swift */,
+				A3B0BEF82CC38C290098666E /* WhyView.swift */,
+				A3B0BEF62CC38BF60098666E /* WhereView.swift */,
+				A3B0BEF42CC389E90098666E /* WhoView.swift */,
+				A3B0BEF22CC389440098666E /* StartView.swift */,
 				A377268A2CC227BF00334162 /* Assets.xcassets */,
 				A377268C2CC227BF00334162 /* Preview Content */,
 			);
@@ -257,8 +275,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3B0BEF32CC389440098666E /* StartView.swift in Sources */,
+				A3B0BEFD2CC38CEF0098666E /* HowView.swift in Sources */,
+				A3B0BEF52CC389E90098666E /* WhoView.swift in Sources */,
 				A37726892CC227BA00334162 /* ContentView.swift in Sources */,
 				A37726872CC227BA00334162 /* Incoin_HeistApp.swift in Sources */,
+				A3B0BEFB2CC38C9C0098666E /* WhereAreTheyView.swift in Sources */,
+				A3B0BEF72CC38BF60098666E /* WhereView.swift in Sources */,
+				A3B0BEF92CC38C290098666E /* WhyView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
