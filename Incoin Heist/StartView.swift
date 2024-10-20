@@ -9,10 +9,30 @@ import SwiftUI
 
 struct StartView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationStack {
+            VStack {
+                Text("Hello! It is a pleasure to have you. Are you the culprit of this wrongdoing?")
+                    .padding()
+                
+                NavigationLink{
+                    OneView()
+                } label: {
+                    Text("The culprit?")
+                        .padding()
+                        .foregroundColor(.white)
+                        .background(
+                            RoundedRectangle(cornerRadius: 20, style: .continuous)
+                                .fill(.purple)
+                        )
+                }
+            }
+            }
+            .padding()
+        }
     }
-}
+
 
 #Preview {
     StartView()
 }
+
